@@ -1,0 +1,125 @@
+header{
+    background-image: url(baner.png);
+    padding-bottom: 10%;
+    background-size: 100% 100%;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+nav{
+    height: 25px;
+    background: rgb(152, 22, 152);
+    margin-bottom: 0px;
+
+}
+nav ul{
+  list-style: none;
+
+}
+nav ul li {
+    float: left;
+    padding: 0 25px;
+    border-right: 1px solid rgb(213, 29, 161);
+
+}
+nav ul li:hover{
+    background: palevioletred;
+
+}
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav .timkiem{
+    float: right;
+    line-height: 40px;
+    float: top;
+}
+nav .timkiem input {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+
+}
+nav.timkiem button{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: aquamarine;
+    color: white;
+    margin-left:  -5px;
+
+}
+.chuchay{
+    position: relative;
+    margin-bottom: 5px;   
+}
+aside{
+    float: left;
+    width: 300px;
+    border-left: 1px gray solid;
+
+}
+h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: rgb(189, 14, 134);
+    color:white ;
+    text-shadow: 2px 2px 5px ;
+
+}
+.menudoc ul{
+    list-style: none;
+
+}
+.menudoc ul li {
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid gray;
+
+}.menudoc ul li:hover{
+    background: peru;
+    
+}
+footer{
+    width: 100%;
+    clear: both;
+    background: rgb(229, 26, 114);
+    color: #fff;
+}
+.ft1{
+    float: left;
+    width: 400px;
+    margin-bottom: 25px;
+
+}
+footer h3{
+    padding: 15px;
+    font-size: 20px;
+}
+.ft3{
+    width: 100%;
+    clear: both;
+    height: 40px;
+    background: aqua;
+}
+.ft3 p{
+    color: white;
+    font-size: 15px;
+    font-variant: small-caps;
+    text-align:center ;
+}
