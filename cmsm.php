@@ -91,6 +91,7 @@
             giftImage.src = 'ảnh.jpg'; // Thay 'link_den_anh_qua' bằng đường dẫn đến ảnh quà bạn muốn hiển thị
             giftImage.style.display = 'block';
             giftBox.style.display = 'none';
+          
         }
     </script>
 </body>
